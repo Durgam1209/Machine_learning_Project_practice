@@ -9,6 +9,8 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 | **01** | [Calories Burnt Prediction] | Pandas, Seaborn, XGBoost | Data Merging, Correlation analysis, Regression |
 | **02** | [House Price Prediction]| Scikit-learn, Random Forest | Handling outliers, Feature Engineering |
 | **03** | [Pract House Price Prediction]| Scikit-learn, Random Forest | Handling outliers, Feature Engineering |
+| **04** | [Fuel Consumption Prediction]| Scikit-learn, LinearRegression | Dimensionality reduction, Feature Engineering |
+| **05** | [Heart Disease Prediction]| Scikit-learn, Logisticregression | Handling null values,Dimensionality reduction, Feature Engineering |
 ---
 
 ## 🚀 Tech Stack
@@ -31,6 +33,12 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 │   └── house_price_model.ipynb
 ├── 03_Pract_House_Price_Prediction/
 │   └──Pract_house_price_model.ipynb
+├── 04_Fuel_Consumption_Prediction/
+│   ├──Fuel_Consumption_Prediction.ipynb
+|   └──FuelConsumption.csv
+├── 05_Heart_Disease_Prediction/
+│   ├──Heart_Disease_Prediction.ipynb
+|   └──farmingham.csv
 └── README.md
 
 ```
