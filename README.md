@@ -1,9 +1,3 @@
-Based on the code we just debugged together (Loan Status Prediction using SVM and handling class imbalance), here is the updated `README.md`.
-
-I have added **Day 06** with the specific techniques you used (SVC, RandomOverSampler, Standard Scaling).
-
-### Copy and Paste this into your `README.md`:
-
 ```markdown
 # 🛠️ Daily ML Practice
 
