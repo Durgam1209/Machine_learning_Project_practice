@@ -1,4 +1,3 @@
-```markdown
 # 🛠️ Daily ML Practice
 
 A repository dedicated to my journey of learning & practicing Machine Learning, one day at a time. This includes data exploration (EDA), regression models, classification, GenAI experiments, and more.
