@@ -12,6 +12,7 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 | **04** | [Fuel Consumption Prediction] | Scikit-learn, Linear Regression | Dimensionality Reduction, Feature Selection |
 | **05** | [Heart Disease Prediction] | Scikit-learn, Logistic Regression | Handling Null Values, Feature Scaling |
 | **06** | [Loan Eligibility Prediction] | Scikit-learn, SVC, Imblearn | **Class Imbalance (Oversampling)**, SVM Kernels, AUC-ROC |
+| **07** | [Wine Quality Prediction] | Scikit-learn, XGBoost | Classification Metrics, Confusion Matrix, Precision/Recall |
 
 ---
 
@@ -19,7 +20,7 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 
 * **Languages:** Python (Pandas, NumPy, Matplotlib, Seaborn)
 * **Libraries:** Scikit-learn, Imbalanced-learn (SMOTE/ROS), XGBoost
-* **Models:** Linear Regression, Logistic Regression, Random Forest, SVM (SVC)
+* **Models:** Linear Regression, Logistic Regression, Random Forest, SVM (SVC), XGBClassifier
 * **Tools:** Jupyter Notebooks, Git, VS Code
 * **Key Concepts:** EDA, Feature Scaling (StandardScaler), One-Hot Encoding, Hyperparameter Tuning, Model Evaluation (Confusion Matrix, ROC-AUC)
 
@@ -30,23 +31,25 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 ```text
 .
 ├── 01_Calories_Prediction/
-│   ├── calories_prediction.ipynb
-│   └── data/
+│   ├── calories_prediction.ipynb
+│   └── data/
 ├── 02_House_Price_Prediction/
-│   └── house_price_model.ipynb
+│   └── house_price_model.ipynb
 ├── 03_Pract_House_Price_Prediction/
-│   └── Pract_house_price_model.ipynb
+│   └── Pract_house_price_model.ipynb
 ├── 04_Fuel_Consumption_Prediction/
-│   ├── Fuel_Consumption_Prediction.ipynb
-│   └── FuelConsumption.csv
+│   ├── Fuel_Consumption_Prediction.ipynb
+│   └── FuelConsumption.csv
 ├── 05_Heart_Disease_Prediction/
-│   ├── Heart_Disease_Prediction.ipynb
-│   └── farmingham.csv
-├── 06_Loan_Status_Prediction/         
-│   ├── Loan_Status_Prediction.ipynb
-│   └── loan_data.csv
+│   ├── Heart_Disease_Prediction.ipynb
+│   └── farmingham.csv
+├── 06_Loan_Status_Prediction/         
+│   ├── Loan_Status_Prediction.ipynb
+│   └── loan_data.csv
+├── 07_Wine_Quality_Prediction/
+│   ├── Wine_Quality_Prediction.ipynb
+│   └── winequalityN.csv
 └── README.md
-
 ```
 
 ## 👤 About Me
