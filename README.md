@@ -1,28 +1,29 @@
 # 🛠️ Daily ML Practice
 
-A repository dedicated to my journey of learning & practicing Machine Learning, one day at a time. This includes my work on data exploration (EDA), regression models, classification, GenAI experiments, and more. 
+A repository dedicated to my journey of learning & practicing Machine Learning, one day at a time. This includes my work on data exploration (EDA), regression models, classification, GenAI experiments, and **low-level algorithm implementations from scratch**.
 
 ## 📊 Projects Overview
 
 | Day | Project Name | Tech Stack | Key Learnings |
-| :--- | :--- | :--- | :--- |
-| **01** | [Calories Burnt Prediction] | Pandas, Seaborn, XGBoost | Data Merging, Correlation Analysis, Regression |
-| **02** | [House Price Prediction] | Scikit-learn, Random Forest | Handling Outliers, Feature Engineering |
-| **03** | [Pract House Price Prediction] | Scikit-learn, Random Forest | Model Tuning, Validation Strategies |
-| **04** | [Fuel Consumption Prediction] | Scikit-learn, Linear Regression | Dimensionality Reduction, Feature Selection |
-| **05** | [Heart Disease Prediction] | Scikit-learn, Logistic Regression | Handling Null Values, Feature Scaling |
-| **06** | [Loan Eligibility Prediction] | Scikit-learn, SVC, Imblearn | **Class Imbalance (Oversampling)**, SVM Kernels, AUC-ROC |
-| **07** | [Wine Quality Prediction] | Scikit-learn, XGBoost | Classification Metrics, Confusion Matrix, Precision/Recall |
+| --- | --- | --- | --- |
+| **01** | [Calories Burnt Prediction] | Pandas, XGBoost | Data Merging, Correlation Analysis |
+| **02** | [House Price Prediction] | Scikit-learn, RF | Handling Outliers, Feature Engineering |
+| **03** | [Pract House Price Prediction] | Scikit-learn, RF | Model Tuning, Validation Strategies |
+| **04** | [Fuel Consumption Prediction] | Scikit-learn, LR | Dimensionality Reduction, Feature Selection |
+| **05** | [Heart Disease Prediction] | Scikit-learn, Logistic | Handling Null Values, Feature Scaling |
+| **06** | [Loan Eligibility Prediction] | SVC, Imblearn | **Class Imbalance (Oversampling)**, SVM Kernels |
+| **07** | [Wine Quality Prediction] | Scikit-learn, XGBoost | Classification Metrics, Confusion Matrix |
+| **08** | **[Linear Regression Scratch]** | **NumPy** | **Gradient Descent, Partial Derivatives, MSE Cost Function** |
+| **09** | **[Tesla Stock Prediction]** | **XGBoost, SVC** | **Time-Series, Rolling Window, Non-stationarity** |
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Specialized Tech Stack
 
-* **Languages:** Python (Pandas, NumPy, Matplotlib, Seaborn)
-* **Libraries:** Scikit-learn, Imbalanced-learn (SMOTE/ROS), XGBoost
-* **Models:** Linear Regression, Logistic Regression, Random Forest, SVM (SVC), XGBClassifier
-* **Tools:** Jupyter Notebooks, Git, VS Code
-* **Key Concepts:** EDA, Feature Scaling (StandardScaler), One-Hot Encoding, Hyperparameter Tuning, Model Evaluation (Confusion Matrix, ROC-AUC)
+* **Advanced Math:** Custom NumPy implementations of Backpropagation and SGD.
+* **Time-Series:** Quantitative analysis of financial datasets using rolling features.
+* **Libraries:** Scikit-learn, XGBoost, Pandas, Matplotlib, Seaborn.
+* **Hardware-Aware ML:** Understanding matrix operations for GPU acceleration (targeting NVIDIA roles).
 
 ---
 
@@ -31,31 +32,19 @@ A repository dedicated to my journey of learning & practicing Machine Learning, 
 ```text
 .
 ├── 01_Calories_Prediction/
-│   ├── calories_prediction.ipynb
-│   └── data/
-├── 02_House_Price_Prediction/
-│   └── house_price_model.ipynb
-├── 03_Pract_House_Price_Prediction/
-│   └── Pract_house_price_model.ipynb
-├── 04_Fuel_Consumption_Prediction/
-│   ├── Fuel_Consumption_Prediction.ipynb
-│   └── FuelConsumption.csv
-├── 05_Heart_Disease_Prediction/
-│   ├── Heart_Disease_Prediction.ipynb
-│   └── farmingham.csv
-├── 06_Loan_Status_Prediction/         
-│   ├── Loan_Status_Prediction.ipynb
-│   └── loan_data.csv
-├── 07_Wine_Quality_Prediction/
-│   ├── Wine_Quality_Prediction.ipynb
-│   └── winequalityN.csv
+├── ...
+├── 08_Linear_Regression_From_Scratch/
+│   └── linear_regression_numpy.ipynb
+├── 09_Tesla_Stock_Prediction/
+│   ├── tesla_stock_analysis.ipynb
+│   └── Tesla.csv
 └── README.md
+
 ```
 
 ## 👤 About Me
 
-I am a 3rd-year student at DBIT, passionate about Machine Learning and Generative AI. I use this repo to document my daily progress and improve my problem-solving skills in the AI domain.
+I am a 3rd-year CS student at **Don Bosco Institute of Technology (DBIT)**, specializing in Machine Learning and Agentic AI. I was recently shortlisted in the **Top 850** for the **India AI Impact Buildathon 2026**.
 
-**GitHub:** [Durgam1209](https://www.google.com/search?q=https://github.com/Durgam1209)
-
-```
+**GitHub:** [Durgam1209](https://github.com/Durgam1209)
+---
